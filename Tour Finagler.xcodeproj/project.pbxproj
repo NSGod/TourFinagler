@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13CB7F519116EC8005A9EB5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13CB7F419116EC8005A9EB5 /* Cocoa.framework */; };
+		C13CB7FF19116EC8005A9EB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C13CB7FD19116EC8005A9EB5 /* InfoPlist.strings */; };
+		C13CB80119116EC8005A9EB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13CB80019116EC8005A9EB5 /* main.m */; };
+		C13CB80819116EC8005A9EB5 /* MDAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13CB80719116EC8005A9EB5 /* MDAppController.m */; };
+		C13CB80B19116EC8005A9EB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13CB80919116EC8005A9EB5 /* MainMenu.xib */; };
+		C13CB80D19116EC8005A9EB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13CB80C19116EC8005A9EB5 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C13CB7F119116EC8005A9EB5 /* Tour Finagler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Finagler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13CB7F419116EC8005A9EB5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C13CB7F719116EC8005A9EB5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C13CB7F819116EC8005A9EB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C13CB7F919116EC8005A9EB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C13CB7FC19116EC8005A9EB5 /* Tour Finagler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tour Finagler-Info.plist"; sourceTree = "<group>"; };
+		C13CB7FE19116EC8005A9EB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C13CB80019116EC8005A9EB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C13CB80219116EC8005A9EB5 /* Tour Finagler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tour Finagler-Prefix.pch"; sourceTree = "<group>"; };
+		C13CB80619116EC8005A9EB5 /* MDAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppController.h; sourceTree = "<group>"; };
+		C13CB80719116EC8005A9EB5 /* MDAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppController.m; sourceTree = "<group>"; };
+		C13CB80A19116EC8005A9EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C13CB80C19116EC8005A9EB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C13CB7EE19116EC8005A9EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13CB7F519116EC8005A9EB5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C13CB7E819116EC8005A9EB5 = {
+			isa = PBXGroup;
+			children = (
+				C13CB7FA19116EC8005A9EB5 /* Tour Finagler */,
+				C13CB7F319116EC8005A9EB5 /* Frameworks */,
+				C13CB7F219116EC8005A9EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C13CB7F219116EC8005A9EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C13CB7F119116EC8005A9EB5 /* Tour Finagler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C13CB7F319116EC8005A9EB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13CB7F419116EC8005A9EB5 /* Cocoa.framework */,
+				C13CB7F619116EC8005A9EB5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13CB7F619116EC8005A9EB5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13CB7F719116EC8005A9EB5 /* AppKit.framework */,
+				C13CB7F819116EC8005A9EB5 /* CoreData.framework */,
+				C13CB7F919116EC8005A9EB5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C13CB7FA19116EC8005A9EB5 /* Tour Finagler */ = {
+			isa = PBXGroup;
+			children = (
+				C13CB80619116EC8005A9EB5 /* MDAppController.h */,
+				C13CB80719116EC8005A9EB5 /* MDAppController.m */,
+				C13CB80919116EC8005A9EB5 /* MainMenu.xib */,
+				C13CB80C19116EC8005A9EB5 /* Images.xcassets */,
+				C13CB7FB19116EC8005A9EB5 /* Supporting Files */,
+			);
+			path = "Tour Finagler";
+			sourceTree = "<group>";
+		};
+		C13CB7FB19116EC8005A9EB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13CB7FC19116EC8005A9EB5 /* Tour Finagler-Info.plist */,
+				C13CB7FD19116EC8005A9EB5 /* InfoPlist.strings */,
+				C13CB80019116EC8005A9EB5 /* main.m */,
+				C13CB80219116EC8005A9EB5 /* Tour Finagler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C13CB7F019116EC8005A9EB5 /* Tour Finagler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13CB82219116EC8005A9EB5 /* Build configuration list for PBXNativeTarget "Tour Finagler" */;
+			buildPhases = (
+				C13CB7ED19116EC8005A9EB5 /* Sources */,
+				C13CB7EE19116EC8005A9EB5 /* Frameworks */,
+				C13CB7EF19116EC8005A9EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tour Finagler";
+			productName = "Tour Finagler";
+			productReference = C13CB7F119116EC8005A9EB5 /* Tour Finagler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C13CB7E919116EC8005A9EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mark Douma";
+			};
+			buildConfigurationList = C13CB7EC19116EC8005A9EB5 /* Build configuration list for PBXProject "Tour Finagler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C13CB7E819116EC8005A9EB5;
+			productRefGroup = C13CB7F219116EC8005A9EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13CB7F019116EC8005A9EB5 /* Tour Finagler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C13CB7EF19116EC8005A9EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13CB7FF19116EC8005A9EB5 /* InfoPlist.strings in Resources */,
+				C13CB80D19116EC8005A9EB5 /* Images.xcassets in Resources */,
+				C13CB80B19116EC8005A9EB5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C13CB7ED19116EC8005A9EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13CB80119116EC8005A9EB5 /* main.m in Sources */,
+				C13CB80819116EC8005A9EB5 /* MDAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C13CB7FD19116EC8005A9EB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13CB7FE19116EC8005A9EB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C13CB80919116EC8005A9EB5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13CB80A19116EC8005A9EB5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C13CB82019116EC8005A9EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C13CB82119116EC8005A9EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C13CB82319116EC8005A9EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tour Finagler/Tour Finagler-Prefix.pch";
+				INFOPLIST_FILE = "Tour Finagler/Tour Finagler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C13CB82419116EC8005A9EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tour Finagler/Tour Finagler-Prefix.pch";
+				INFOPLIST_FILE = "Tour Finagler/Tour Finagler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C13CB7EC19116EC8005A9EB5 /* Build configuration list for PBXProject "Tour Finagler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13CB82019116EC8005A9EB5 /* Debug */,
+				C13CB82119116EC8005A9EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C13CB82219116EC8005A9EB5 /* Build configuration list for PBXNativeTarget "Tour Finagler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13CB82319116EC8005A9EB5 /* Debug */,
+				C13CB82419116EC8005A9EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C13CB7E919116EC8005A9EB5 /* Project object */;
+}
